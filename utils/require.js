@@ -1,0 +1,10 @@
+exports.express = require("express");
+exports.layoutEjs = require("express-ejs-layouts");
+exports.session = require("express-session");
+exports.cookieParser = require("cookie-parser");
+const express = require("express");
+exports.app = express();
+exports.cookie = require("cookie");
+exports.randomString = require("randomstring");
+exports.mongo = require("mongodb");
+exports.jwt = require("jsonwebtoken");
